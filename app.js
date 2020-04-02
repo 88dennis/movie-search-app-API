@@ -57,7 +57,7 @@ rp("http://www.omdbapi.com/?s=" + searchThisMovie + "&apikey=thewdb")
         // } 
     })
     .catch(function(err){
-        console.log("Erroe", err)
+        console.log("Error", err)
     });
 
 });
