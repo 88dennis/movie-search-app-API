@@ -1,0 +1,10 @@
+<h1>SEARCH FOR A MOVIE</h1>
+
+<form action="/results" method="GET">
+    <!-- when you add a form and press the button it will direct you to the results route -->
+    <!-- to get the value from the input field you must add the name attribute; the "searchTerm" is the key and the input is the value you will send to the request body -->
+    <!-- for you to see this you may use console.log(req.body) in your app.js post route -->
+    <!-- the req.query contains all the info -->
+    <input type="text" name="searchTerm" placeholder="Search for a movie">
+    <input type="submit" value="Search">
+</form>
